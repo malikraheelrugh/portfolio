@@ -6,8 +6,7 @@ function Homepage(params) {
     const navigate = useNavigate()
     return <>
 
-        <marquee behavior="alternate" direction="left"> <h1 className={styles.heading}><span style={{ color: "#C470DB" }}>Frontend  Developer</span> <br /></h1>
-        </marquee>
+
 
         <div className={styles.container}>
 
