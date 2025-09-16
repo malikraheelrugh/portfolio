@@ -7,20 +7,20 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MyProjects from './components/myproject.jsx'
 BrowserRouter
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />}>
-        </Route>
-      </Routes>
-      <Routes>
-        <Route path='/myprojects' element={<MyProjects />}>
-        </Route>
-      </Routes>
-      <Routes>
-        <Route path='/contact' element={<Contact />}>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </StrictMode>,
+  // <StrictMode>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App />}>
+      </Route>
+    </Routes>
+    <Routes>
+      <Route path='/myprojects' element={<MyProjects />}>
+      </Route>
+    </Routes>
+    <Routes>
+      <Route path='/contact' element={<Contact />}>
+      </Route>
+    </Routes>
+  </BrowserRouter>
+  // </StrictMode>,
 )
