@@ -6,7 +6,7 @@ function Navbar() {
     const navigate = useNavigate()
 
     return (<>
-        <nav className="navbar navbar-expand-sm top" id='navbar'>
+        <nav className="navbar navbar-expand-lg top" id='navbar'>
             <div className="container-fluid">
                 <button className="navbar-toggler bg-white" type="button" id='nav-toggler' data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon "></span>
