@@ -1,0 +1,13 @@
+   .container {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       height: 630px;
+       background-size: cover;
+   }
+
+   @media only screen and (max-width:800px) {
+       .container {
+           height: 1000px;
+       }
+   }

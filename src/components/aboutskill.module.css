@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Manufacturing+Consent&family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.languages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.skillItem {
+    border: 2px solid #ABB2BF;
+    color: #ABB2BF;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 300px;
+}
+
+.skillItem:hover {
+    transform: translateX();
+    transform: scale(1.05)rotate(1.5deg);
+    transition: transform 0.5s ease;
+
+}
+
+.skillItem h2 {
+
+    color: white;
+    border-bottom: 1px solid #ABB2BF;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.skillItem p {
+    padding: 10px;
+    color: #ABB2BF
+}

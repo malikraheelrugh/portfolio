@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+body {
+  /* background: url(../src/assets/symbol-scatter-haikei.png); */
+  background-color: #282C33;
+  font-family: "Fira Code", monospace;
+
+}
+
+
+.fixed-toggler {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 58px;
+}
+
+@media (max-width: 768px) {
+  .fixed {
+    position: static;
+  }
+
+  .top {
+    position: absolute;
+  }
+
+
+}
+
+@media screen and (max-width:600px) {
+  .navbar-brand img {
+    top: 10px;
+    position: absolute;
+    right: 10px
+  }
+}
+
+.top {
+  margin-right: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #282C33;
+}
+
+.purple {
+  color: #C470DB;
+}
+
+.mainBtn {
+  background: #282C33;
+  padding: 10px;
+  border: 2px solid #C470DB;
+  border-radius: 2px;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 50px;
+  margin-left: 25%;
+  background-image: url("assets/symbol-scatter-haikei.png");
+}
+
+.contact-form label {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-left: 15%;
+}
+
+.contact-form textarea,
+
+input {
+  width: 70%;
+  margin-left: 15%;
+  padding: 10px;
+  color: black;
+}
+
+.contact-form button {
+  margin-top: 20px;
+}
+
+.raheel {
+  border-radius: 50%;
+  height: 400px;
+}
+
+.mainBtn:hover {
+  background-color: #c470db59;
+}
+
+.mining-heading {
+  color: white;
+  border-bottom: 0.7px solid #f0ffff40;
+  text-align: center;
+  width: 102.7%;
+  margin-left: -12px;
+}
+
+.myImg {
+  width: 105.5%;
+  height: auto;
+  margin-left: -12px;
+}
+
+.img-div {
+  border: 2px solid #ABB2BF;
+  width: 465px;
+  margin-left: 20px;
+  height: fit-content;
+}
+
+.img-div h2 {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ABB2BF;
+}
+
+.line {
+  background: #C470DB;
+  width: 200px;
+  height: 2px;
+  margin: 25px;
+}
+
+.nav-list a {
+  color: #ABB2BF;
+  font-family: "Fira Code", monospace;
+  margin-left: 22px;
+  font-size: 16px;
+  border-bottom: 2px solid #282C33;
+
+}
+
+.nav-item a:hover {
+  border-radius: 10px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.para p {
+  font-size: larger;
+  width: 100%;
+  color: #ABB2BF;
+}
+
+@media screen and (max-width:800px) {
+  .about-div {
+    flex-direction: column;
+  }
+
+  .contact-form textarea,
+  input {
+    width: 80%;
+  }
+
+  .contact-form {
+    padding: 0px;
+  }
+}
+
+.myprogress {
+  margin-left: 20px;
+}
+
+.main {
+  display: flex;
+}
+
+.progress {
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: #aabbbb30;
+}

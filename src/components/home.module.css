@@ -1,0 +1,93 @@
+.heading {
+    color: #C470DB;
+    margin-top: 6rem;
+    font-family: "fira code", monospace;
+}
+
+.paragraph {
+    /* filter: drop-shadow(0 0 2em #646cffaa); */
+    color: white;
+
+}
+
+.paragraph p {
+    color: white;
+    font-size: larger;
+    font-family: "Epunda Slab", serif;
+    /* text-shadow: 0 0 10px #00f, 0 0 20px white; */
+}
+
+.paragraph h5 {
+    text-align: left;
+    word-spacing: 10px;
+    margin-top: 2rem;
+    line-height: 35px;
+    color: #ABB2BF;
+    text-align: left;
+}
+
+/* .paragraph strong {
+    color: white;
+
+} */
+
+.webdeveloper {
+    color: #f33838;
+    text-shadow: 4px 4px 2px crimson;
+
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.discription {
+    /* margin-left: ; */
+    margin-top: -15px;
+}
+
+.main-div {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.myImage {
+    border-radius: 50%;
+    margin-top: 6rem;
+    outline: 5px solid #C470DB;
+}
+
+
+
+.raheel:hover {
+    transition: transform 0.5s ease;
+
+}
+
+@media only screen and (max-width:800px) {
+    .container {
+        flex-direction: column-reverse;
+        height: 750px;
+    }
+
+    .raheel {
+        height: 200px;
+    }
+
+    .heading {
+        margin-left: 20%;
+    }
+}
+
+.animated-text {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+}
