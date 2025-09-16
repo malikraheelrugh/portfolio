@@ -21,7 +21,7 @@ function App() {
       <section id='projects'>
         <Projects></Projects>
       </section>
-      <section>
+      <section id='aboutus'>
         <AboutUs></AboutUs>
       </section>
       <section id='progress'>

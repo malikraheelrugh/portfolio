@@ -1,8 +1,9 @@
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myLogo from "./assets/myLogo.png"
+import { useNavigate } from 'react-router-dom';
 function Navbar() {
-
+    const navigate = useNavigate()
 
     return (<>
         <nav className="navbar navbar-expand-sm top" id='navbar'>
@@ -26,7 +27,13 @@ function Navbar() {
                             <a className="nav-link ms-5  fw-bold " href='#projects'><span className='purple'>#</span>My Projects</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link ms-5  fw-bold " href='#aboutus'><span className='purple'>#</span>About Us</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link ms-5  fw-bold " href='#progress' ><span className='purple'>#</span>Progress</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link ms-5  fw-bold " onClick={() => navigate("/contact")} ><span className='purple'>#</span>Contact Us</a>
                         </li>
 
                     </ul>

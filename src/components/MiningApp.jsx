@@ -24,7 +24,12 @@ function MinningApp(params) {
                     <img src={earn5Img} alt="Earn5" className="img-fluid" />
                 </div>
             </div>
-            <h1 className='mining-heading'>Mining App</h1>
+            <h1 className='mining-heading p-2'>Mining App</h1>
+
+            <p style={{ color: "gray" }}>
+                Mining App   is a digital investment platform designed to simplify and simulate crypto-based earning strategies. With a clean interface and intuitive controls,  initiate mining cycles, and monitor returns—all within a secure and responsive environment.
+
+            </p>
 
             <center><a href="https://github.com/malikraheelrugh/Mining-App"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
             </a></center>

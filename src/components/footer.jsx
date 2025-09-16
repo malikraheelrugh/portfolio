@@ -1,19 +1,27 @@
+import { useNavigate } from "react-router-dom";
+
 function Footer(params) {
+  const navigate = useNavigate
   return <>
     <div className="container-fluid  footer ">
+      <h5 className="pt-4 m-4"><strong>Note :</strong> This project is made by using react js</h5>
       <footer className=" mt-4">
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
           <li className="nav-item">
-            <a href="#" className="nav-link text-white px-2 ">Home</a></li>
+            <a href="#" className="nav-link text-white p-2 ">Home</a></li>
           <li className="nav-item">
-            <a href="#skills" className="nav-link px-2 text-white">skills</a>
+            <a href="#skills" className="nav-link p-2 text-white">skills</a>
           </li>
           <li className="nav-item">
             <a href="#projects" className="text-white nav-link px-2 ">projects</a>
           </li> <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-white ">About</a></li>
+            <a href="#aboutus" className="nav-link p-2 text-white ">About Us</a></li>
+          <li className="nav-item">
+            <a href="#progress" className="nav-link p-2 text-white ">progress</a></li>
+
         </ul>
-        <p className="text-center text-white ">copyright 2025 . made by raheel abbas</p>
+        <center><strong>Email</strong>: raheelrugh677@gmail.com</center>
+        <p className="text-center text-white mb-0">copyright 2025 . made by raheel abbas</p>
       </footer> </div>
 
   </>

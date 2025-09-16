@@ -11,28 +11,28 @@ function ProgressBar() {
             </div>
         </div>
         <div className="container-fluid mt-4" style={{ width: "93%", }}>
-            <div className="languages border border-primary border-4 p-4" style={{ background: "white", borderRadius: "10px", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}>
-                <strong className={styles.strong}>Html</strong>
+            <div className="languages border border-primary border-4 p-4" style={{ borderRadius: "10px", }}>
+                <h3 className={styles.h3}>Html</h3>
                 <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                     <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "90%" }}></div>
                 </div>
 
-                <strong className={styles.strong}>Css</strong>
+                <h3 className={styles.h3}>Css</h3>
                 <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                     <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "80%" }}></div>
                 </div>
 
-                <strong className={styles.strong}>Bootstrap</strong>
+                <h3 className={styles.h3}>Bootstrap</h3>
                 <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85%" aria-valuemin="0" aria-valuemax="100">
                     <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "80%" }}></div>
                 </div>
 
-                <strong className={styles.strong}>javascript</strong>
+                <h3 className={styles.h3}>javascript</h3>
                 <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                     <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "75%" }}></div>
                 </div>
 
-                <strong className={styles.strong}>React js</strong>
+                <h3 className={styles.h3}>React js</h3>
                 <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                     <div className="progress-bar bg-primary progress-bar-striped progress-bar-animated" style={{ width: "70%" }}></div>
                 </div>

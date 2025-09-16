@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
+import MinningApp from './MiningApp';
 import styles from './myprojects.module.css';
 import netflix from '../assets/netflix.png';
 import schoolpic from '../assets/schoolwebpic.png'
@@ -53,8 +53,8 @@ function MyProjects() {
             link: "https://github.com/malikraheelrugh/javascript-form-with-output"
         },
         {
-            name: "Javascript Calculator", photo: javascript, about: `Calculator is designed by using javascript , that is showing an output on screen dynamically.This calculator also
-             perform all arithmetic operations .`,
+            name: "Javascript Calculator", photo: javascript, about: `Calculator is designed by using javascript , that is showing an output .This is made by custom logic ,and it's also
+             perform all arithmetic operations , .`,
             link: "https://github.com/malikraheelrugh/calculator"
         }
 
@@ -76,17 +76,24 @@ function MyProjects() {
         },
         {
             name: "Dynamic Form with validation", photo: validationForm,
-            about: ``,
+            about: `This form is dynamically generated using vanilla JavaScript, Validation is handled in real-time using custom logic
+            ensuring that all dynamically added fields meet required conditions before submission.`,
             link: "https://github.com/malikraheelrugh/Validation-Form"
         },
         {
             name: "firebase form with CRUD", photo: firebaseForm,
-            about: ``,
+            about: `This form is integrated with Firebase Realtime Database or Firestore
+            , where user input is securely stored. The form is dynamically rendered using
+             JavaScript, and validation ensures that only valid data is submitted to the database.
+
+
+`,
             link: "https://github.com/malikraheelrugh/FireBase-Form"
         },
         {
             name: "Weather Api", photo: weatherapi,
-            about: ``,
+            about: `User enters a city name, and the app displays current temperature, weather condition
+            It fetches current conditions, forecasts, and location-specific weather details using lightweight JSON responses`,
             link: "https://github.com/malikraheelrugh/weather"
         },
 
@@ -101,6 +108,7 @@ function MyProjects() {
                 <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }}> <span className='purple'>#</span>Projects </h1>
                 <p className='line'></p>
             </div>            <div className={styles.projectContainer}>
+                <MinningApp></MinningApp>
                 {myproject.map(item =>
                     <div key={item.photo} className={`${styles.container} col-sm-6 col-md-4 col-lg-3 col-xxl-2`}>
                         <img src={item.photo} alt="" />

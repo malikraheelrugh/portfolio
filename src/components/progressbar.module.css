@@ -2,14 +2,10 @@
     color: rgb(3, 3, 73);
 }
 
-.h1:hover {
-    color: crimson;
-}
-
-.strong {
-    color: crimson;
+.h3 {
+    color: white;
     margin-left: 18px;
     font-family: "Story Script", sans-serif;
 
-    font-size: 18px;
+    /* font-size: 18px; */
 }

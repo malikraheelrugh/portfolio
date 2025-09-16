@@ -13,10 +13,10 @@ function Projects(params) {
             <div className="headingDiv mt-5 d-flex">
                 <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }} > <span className='purple'>#</span>Projects </h1>
                 <p className='line'></p>
-                <button className={`${styles.projectBtn} mainBtn`} onClick={() => navigate("/myprojects")}>View all {"->"}</button>
+                <button className={`${styles.projectBtn} mainBtn`} onClick={() => navigate("/myprojects")}>View all {"~~>"}</button>
             </div>
         </div>
-        {/* <MinningApp /> */}
+        <MinningApp />
         <div className="container-fluid mt-4 ">
             <div className="row justify-content-center">
                 <div className=" img-div">
@@ -27,7 +27,9 @@ function Projects(params) {
                         designed with precision also added animation on many components.
                         It is made responsible using media querires and flexbox</p>
                     <center>
-                        <button className="mainBtn" style={{ marginBottom: "10px" }}>View on GitHub</button>
+                        <a href="https://github.com/malikraheelrugh/schoolWebsite/tree/main/school%20website">
+                            <button className="mainBtn" style={{ marginBottom: "10px" }}>View on GitHub</button>
+                        </a>
                     </center>
                 </div>
                 <div className=" img-div">
@@ -38,7 +40,9 @@ function Projects(params) {
                         row's background color color would Green else Red .
                     </p>
                     <center>
-                        <button className="mainBtn" style={{ marginBottom: "10px" }}>View on GitHub</button>
+                        <a href="https://github.com/malikraheelrugh/clorib-bootstrap-website">
+                            <button className="mainBtn" style={{ marginBottom: "10px" }}>View on GitHub</button>
+                        </a>
                     </center>
                 </div>
                 <div className=" img-div">
@@ -48,7 +52,9 @@ function Projects(params) {
                         It is designed in avery smooth way and also made responsive by mostly bootstrap .
                     </p>
                     <center>
-                        <button className="mainBtn" style={{ marginBottom: "10px" }}>View on GitHub</button>
+                        <a href="https://github.com/malikraheelrugh/javascript-form-with-output">
+                            <button className="mainBtn" style={{ marginBottom: "10px" }}>View on GitHub</button>
+                        </a>
                     </center>
                 </div>
 
