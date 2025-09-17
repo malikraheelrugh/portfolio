@@ -32,6 +32,8 @@ function AboutSkills() {
      components, hooks, and context for state management. I implement intuitive
      routing and CRUD functionality, ensuring seamless navigation and real-time data
       updates across the app.`
+        }, {
+            name: "firebase"
         }
         // , {
         //             name: "", about: `I build with empathy and precision—designing interfaces
@@ -52,8 +54,7 @@ function AboutSkills() {
             <div className={`${styles.languages} col-12`}>
                 {mySkills.map(item =>
                     <div key={item.name} className={`${styles.skillItem} col-sm-6 col-md-4 col-lg-3 col-xxl-2.5`}>
-                        <h2> {item.name}</h2>
-                        <p>{item.about}</p>
+                        <h3> {item.name}</h3>
                     </div>
 
                 )}

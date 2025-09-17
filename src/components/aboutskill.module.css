@@ -21,10 +21,8 @@
 
 
 
-.skillItem h2 {
-
+.skillItem h3 {
     color: white;
-    border-bottom: 1px solid #ABB2BF;
     margin-top: 10px;
     padding: 10px;
 }

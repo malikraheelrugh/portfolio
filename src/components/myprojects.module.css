@@ -8,13 +8,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 15px;
+    margin: 8px;
+    height: fit-content;
+
 }
 
 .projectContainer {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container img {
@@ -28,7 +30,13 @@
 }
 
 .container p {
-    margin: revert;
+
     font-size: 20px;
     color: #ABB2DB
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        width: 300px;
+    }
 }

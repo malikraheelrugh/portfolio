@@ -100,7 +100,6 @@ input {
 
 .raheel {
   border-radius: 50%;
-  height: 400px;
 }
 
 .mainBtn:hover {
@@ -116,15 +115,15 @@ input {
 }
 
 .myImg {
-  width: 105.5%;
+  width: 107.5%;
   height: auto;
   margin-left: -12px;
 }
 
 .img-div {
   border: 2px solid #ABB2BF;
-  width: 465px;
-  margin-left: 20px;
+  width: 365px;
+  margin: 20px;
   height: fit-content;
 }
 
@@ -162,6 +161,16 @@ input {
   color: #ABB2BF;
 }
 
+@media screen and (max-width:500px) {
+  .img-div {
+    width: 300px;
+  }
+
+  .myImg {
+    width: 109.5%;
+  }
+}
+
 @media screen and (max-width:800px) {
   .about-div {
     flex-direction: column;
@@ -174,6 +183,10 @@ input {
 
   .contact-form {
     padding: 0px;
+  }
+
+  .line {
+    display: none;
   }
 }
 

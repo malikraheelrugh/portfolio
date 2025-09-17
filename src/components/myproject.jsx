@@ -15,94 +15,78 @@ import firebaseForm from '../assets/firebaseForm.png';
 import weatherapi from '../assets/weather api.png';
 
 function MyProjects() {
-    // function RightMove() {
-    //     const container = document.querySelector(`.${styles.projectContainer}`);
-    //     if (container) {
-    //         container.scrollBy({ left: 200, behavior: 'smooth' });
-    //     }
-    // }
-    // function LeftMove() {
-    //     const container = document.querySelector(`.${styles.projectContainer}`);
-    //     if (container) {
-    //         container.scrollBy({ left: -200, behavior: 'smooth' });
-    //     }
-    // }
+
     const myproject = [
-        {
-            name: "Html and Css", photo: schoolpic,
-            about: `This project  is  designed by using html and styled using css
-             . It is developed in a very semantic way and
-             designed with precision also added animation on many components.
-              It is made responsible using media querires and flexbox`,
-            link: "https://github.com/malikraheelrugh/schoolWebsite/tree/main/school%20website"
-        },
-        {
-            name: "Bootstrap", photo: bootstrap, about:
-                `This website's layout is designed by with the Html and using framework Bootatrap . It is designed in avery smooth way and also made responsive by mostly bootstrap .`,
-            link: "https://github.com/malikraheelrugh/clorib-bootstrap-website"
-        },
-        {
-            name: "Bootstrap", photo: bootstrap2,
-            about: `This website's layout is designed by with the Html and using framework Bootatrap . and also made responsive by mostly bootstrap .`,
-            link: "https://github.com/malikraheelrugh/web-Store"
-        },
-        {
-            name: "Javascript", photo: outputform, about: `Registration Form is designed dynamically by using javascript , that is showing an output on submit in table dynamically.This form also
-             perform CRUD operations ,It have functionality to create ,update ,delete the data.The  color applying on the table's row is based on checkbox . If checkbox is checked then  that's 
-             row's background color color would Green else Red `,
-            link: "https://github.com/malikraheelrugh/javascript-form-with-output"
-        },
-        {
-            name: "Javascript Calculator", photo: javascript, about: `Calculator is designed by using javascript , that is showing an output .This is made by custom logic ,and it's also
-             perform all arithmetic operations , .`,
-            link: "https://github.com/malikraheelrugh/calculator"
-        }
-
-        , {
-            name: "Html and Css", photo: netflix,
-            about: `Landing page of netflix  is designed with the help of only html and css.This website is also made re
-            sponsive with the help only media queries and flexbox and only added some javascript`,
-            link: "https://github.com/malikraheelrugh/netflex-clone"
-        },
-        , {
-            name: "Tic Tac Toe", photo: ticTacToe,
-            about: `Tic Tac Toe game is designed with the help of only html ,css and javascript .`,
-            link: "https://github.com/malikraheelrugh/Tic-Tac-Toe"
-        },
-        {
-            name: "Html and Css", photo: mediaboom,
-            about: "It's layout is simple not much complex but it's responsible and user-friendly.",
-            link: "https://github.com/malikraheelrugh/calculator"
-        },
-        {
-            name: "Dynamic Form with validation", photo: validationForm,
-            about: `This form is dynamically generated using vanilla JavaScript, Validation is handled in real-time using custom logic
-            ensuring that all dynamically added fields meet required conditions before submission.`,
-            link: "https://github.com/malikraheelrugh/Validation-Form"
-        },
-        {
-            name: "firebase form with CRUD", photo: firebaseForm,
-            about: `This form is integrated with Firebase Realtime Database or Firestore
-            , where user input is securely stored. The form is dynamically rendered using
-             JavaScript, and validation ensures that only valid data is submitted to the database.
-
-
-`,
-            link: "https://github.com/malikraheelrugh/FireBase-Form"
-        },
         {
             name: "Weather Api", photo: weatherapi,
             about: `User enters a city name, and the app displays current temperature, weather condition
             It fetches current conditions, forecasts, and location-specific weather details using lightweight JSON responses`,
             link: "https://github.com/malikraheelrugh/weather"
         },
+        {
+            name: "Javascript", photo: outputform, about: `Registration Form is designed dynamically by using javascript , that is showing an output on submit in table dynamically.This form also
+             perform CRUD operations .The  color applying on the table's row is based on checkbox . If checkbox is checked then  that's 
+             row's background color color would Green else Red `,
+            link: "https://github.com/malikraheelrugh/javascript-form-with-output"
+        },
+        {
+            name: "Dynamic Form with validation", photo: validationForm,
+            about: `This form is dynamically made by using vanilla JavaScript, Validation is handled in real-time using custom logic
+            ensuring that all dynamically added fields meet required conditions before submission.`,
+            link: "https://github.com/malikraheelrugh/Validation-Form"
+        },
+        {
+            name: "Html and Css", photo: schoolpic,
+            about: ``,
+            link: "https://github.com/malikraheelrugh/schoolWebsite/tree/main/school%20website"
+        },
+        {
+            name: "Bootstrap", photo: bootstrap, about:
+                ``,
+            link: "https://github.com/malikraheelrugh/clorib-bootstrap-website"
+        },
+        {
+            name: "Bootstrap", photo: bootstrap2,
+            about: ``,
+            link: "https://github.com/malikraheelrugh/web-Store"
+        },
+        {
+            name: "Html and Css", photo: mediaboom,
+            about: "",
+            link: "https://github.com/malikraheelrugh/calculator"
+        },
+
+        {
+            name: "Html and Css", photo: netflix,
+            about: ``,
+            link: "https://github.com/malikraheelrugh/netflex-clone"
+        },
+        , {
+            name: "Tic Tac Toe", photo: ticTacToe,
+            about: ``,
+            link: "https://github.com/malikraheelrugh/Tic-Tac-Toe"
+        },
+
+
+        {
+            name: "firebase form with CRUD", photo: firebaseForm,
+            about: `This form is integrated with Firebase Realtime Database 
+            , where user input is securely stored. The form is dynamically rendered using
+             JavaScript, and validation ensures that only valid data is submitted to the database.
+`,
+            link: "https://github.com/malikraheelrugh/FireBase-Form"
+        }, {
+            name: "Javascript Calculator", photo: javascript, about: `Calculator is developed by custom logic.`,
+            link: "https://github.com/malikraheelrugh/calculator"
+        }
+
+        ,
+
 
     ]
     return <>
-        <div className="container-fluid mt-4" style={{
-            marginLeft: "5%",
-            marginRight: "5%",
-            width: "auto"
+        <div className=" mt-4 m-2" style={{
+
         }}>
             <div className="headingDiv mt-5 d-flex">
                 <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }}> <span className='purple'>#</span>Projects </h1>
@@ -114,8 +98,8 @@ function MyProjects() {
                         <img src={item.photo} alt="" />
                         <h2 key={item.name} >{item.name}</h2>
 
-                        <strong></strong> <p>{item.about}</p>
-                        <a href={item.link}><button className="mainBtn">view on GitHub</button></a>
+                        <p>{item.about}</p>
+                        <a href={item.link}><button className="mainBtn mb-2">view on GitHub</button></a>
                     </div>
                 )}
 

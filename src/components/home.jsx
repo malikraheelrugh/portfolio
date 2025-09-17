@@ -12,14 +12,15 @@ function Homepage(params) {
 
             <div>
                 <center><div className={styles.paragraph}>
-                    <h1 style={{ fontFamily: '"fira code",monospace' }}> Raheel is  a <span className={styles.heading}>Web Developer</span><br />and <span className={styles.heading}>Front-End </span> Developer </h1>
+                    <h1 style={{ fontFamily: '"fira code",monospace' }}> Raheel is  a <span className={styles.heading}>Web Developer</span> and <span className={styles.heading}>Front-End </span> Developer </h1>
                     <h5 > He crafts responsive websites where technologies <br /> meet creativity</h5>
                 </div>
                 </center>
                 <button className="mainBtn"
                     onClick={() => navigate("contact")}
                     style={{
-                        marginTop: "1rem"
+                        marginTop: "1rem",
+                        marginLeft: "20px"
                     }}>Contact Me ={">"}</button>
 
             </div>

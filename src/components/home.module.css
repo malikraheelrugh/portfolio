@@ -5,16 +5,8 @@
 }
 
 .paragraph {
-    /* filter: drop-shadow(0 0 2em #646cffaa); */
     color: white;
-
-}
-
-.paragraph p {
-    color: white;
-    font-size: larger;
-    font-family: "Epunda Slab", serif;
-    /* text-shadow: 0 0 10px #00f, 0 0 20px white; */
+    width: 628px;
 }
 
 .paragraph h5 {
@@ -25,11 +17,6 @@
     color: #ABB2BF;
     text-align: left;
 }
-
-/* .paragraph strong {
-    color: white;
-
-} */
 
 .webdeveloper {
     color: #f33838;
@@ -68,17 +55,44 @@
 
 }
 
+@media only screen and (max-width:1000px) {
+    .paragraph {
+        width: 500px;
+    }
+}
+
 @media only screen and (max-width:800px) {
     .container {
         flex-direction: column-reverse;
-        height: 750px;
+        margin-top: 19px;
+        gap: 42px;
     }
 
     .raheel {
         height: 200px;
     }
 
+    .paragraph {
+        width: 475px;
+        font-size: calc(1.375rem + 1.5vw);
+    }
 
+
+}
+
+@media screen and (max-width:450px) {
+    .paragraph h5 {
+        margin-left: 20px;
+    }
+
+    .paragraph {
+        width: 350px;
+    }
+
+    .paragraph h1 {
+        font-size: 20px;
+
+    }
 }
 
 .mediaHeader {

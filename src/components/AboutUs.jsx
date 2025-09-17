@@ -13,11 +13,6 @@ function AboutUs(params) {
             </div>
             <div className="para ">
                 <p>
-                    I’m a self-taught front-end developer . I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
-
-
-                </p>
-                <p>
                     I creates beautiful, responsive and mobile friendly websites with passion
 
                     I build with empathy and precision—designing interfaces

@@ -18,8 +18,8 @@ function Projects(params) {
         </div>
         <MinningApp />
         <div className="container-fluid mt-4 ">
-            <div className="row justify-content-center gap-4">
-                <div className=" img-div">
+            <div className="row justify-content-center ">
+                <div className=" img-div ">
                     <img src={schoolWebPic} alt="" className="myImg " />
                     <h2>School Website</h2>
                     <p style={{ color: "#ABB2BF" }}>This project  is  designed by using html and styled using css

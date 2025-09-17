@@ -5,7 +5,7 @@ import earn4Img from '../assets/earn4.png';
 import earn5Img from '../assets/earn5.png';
 function MinningApp(params) {
     return <>
-        <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem" }}>
+        <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem", width: "90%" }}>
 
             <div className="d-flex justify-content-around align-items-center gap-2  flex-wrap" style={{ marginBottom: "10px" }}>
                 <div className="col">
