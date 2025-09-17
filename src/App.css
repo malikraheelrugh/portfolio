@@ -150,9 +150,7 @@ input {
 }
 
 .nav-item a:hover {
-  border-radius: 10px;
   color: white;
-  border-bottom: 2px solid white;
 }
 
 .para p {
@@ -204,4 +202,8 @@ input {
 
 .footer {
   background-color: #343a40;
+}
+
+.nav-item a {
+  color: #ABB2BF;
 }

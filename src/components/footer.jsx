@@ -8,20 +8,20 @@ function Footer(params) {
       <footer className=" mt-4">
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
           <li className="nav-item">
-            <a href="#" className="nav-link text-white p-2 ">Home</a></li>
+            <a href="#" className="nav-link  p-2 ">Home</a></li>
           <li className="nav-item">
-            <a href="#skills" className="nav-link p-2 text-white">skills</a>
+            <a href="#skills" className="nav-link p-2 ">skills</a>
           </li>
           <li className="nav-item">
-            <a href="#projects" className="text-white nav-link px-2 ">projects</a>
+            <a href="#projects" className=" nav-link px-2 ">projects</a>
           </li> <li className="nav-item">
-            <a href="#aboutus" className="nav-link p-2 text-white ">About Us</a></li>
+            <a href="#aboutus" className="nav-link p-2  ">About Us</a></li>
           <li className="nav-item">
-            <a href="#progress" className="nav-link p-2 text-white ">progress</a></li>
+            <a href="#progress" className="nav-link p-2  ">progress</a></li>
 
         </ul>
         <center><strong>Email</strong>: raheelrugh677@gmail.com</center>
-        <p className="text-center text-white mb-0">copyright 2025 . made by raheel abbas</p>
+        <p className="text-center  mb-0">copyright 2025 . made by raheel abbas</p>
       </footer> </div>
 
   </>
