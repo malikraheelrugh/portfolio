@@ -3,7 +3,7 @@ function AboutUs(params) {
     return <>
         <div className="main">
             <div className="headingDiv mt-5 d-flex">
-                <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }}> <span className='purple'>#</span>About Us </h1>
+                <h1 className=' h1 ' > <span className='purple'>#</span>About Us </h1>
                 <p className='line'></p>
             </div>
         </div>
@@ -20,6 +20,8 @@ function AboutUs(params) {
                     experiences that feel intuitive and delightful, whether you're signing
                     up, browsing, or interacting  with dynamic content
                 </p>
+                <strong>Email</strong>: raheelrugh677@gmail.com
+
             </div>
         </div>
     </>

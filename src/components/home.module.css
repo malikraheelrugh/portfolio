@@ -82,7 +82,7 @@
 
 @media screen and (max-width:450px) {
     .paragraph h5 {
-        margin-left: 20px;
+        margin-left: 22px;
     }
 
     .paragraph {
@@ -90,7 +90,7 @@
     }
 
     .paragraph h1 {
-        font-size: 20px;
+        font-size: 22px;
 
     }
 }

@@ -6,7 +6,7 @@ function ProgressBar() {
     return <>
         <div className="main">
             <div className="headingDiv mt-5 d-flex">
-                <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }}> <span className='purple'>#</span>Progress Bar </h1>
+                <h1 className=' h1 ' > <span className='purple'>#</span>Progress Bar </h1>
                 <p className='line'></p>
             </div>
         </div>

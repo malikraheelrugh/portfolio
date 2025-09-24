@@ -48,7 +48,7 @@ function AboutSkills() {
 
         <div className="container-fluid text-start" style={{ marginLeft: "20px", marginRight: "20px", width: "auto" }}>
             <div className="headingDiv mt-5 d-flex">
-                <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }}> <span className='purple'>#</span>Skills </h1>
+                <h1 className=' h1 ' > <span className='purple'>#</span>Skills </h1>
                 <p className='line'></p>
             </div>
             <div className={`${styles.languages} col-12`}>

@@ -89,7 +89,7 @@ function MyProjects() {
 
         }}>
             <div className="headingDiv mt-5 d-flex">
-                <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }}> <span className='purple'>#</span>Projects </h1>
+                <h1 className=' h1 '> <span className='purple'>#</span>Projects </h1>
                 <p className='line'></p>
             </div>            <div className={styles.projectContainer}>
                 <MinningApp></MinningApp>

@@ -11,7 +11,7 @@ function Projects(params) {
 
         <div className="main">
             <div className="headingDiv mt-5 d-flex">
-                <h1 className=' h1 ' style={{ color: "white", marginLeft: "60px" }} > <span className='purple'>#</span>Projects </h1>
+                <h1 className=' h1 ' > <span className='purple'>#</span>Projects </h1>
                 <p className='line'></p>
                 <button className={`${styles.projectBtn} mainBtn`} onClick={() => navigate("/myprojects")}>View all {"~~>"}</button>
             </div>
