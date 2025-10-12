@@ -123,17 +123,10 @@ input {
   margin-left: -12px;
 }
 
-.img-div {
-  border: 2px solid #ABB2BF;
-  width: 365px;
-  margin: 20px;
-  height: fit-content;
-}
+.projectBtn {
+  right: 20px;
+  position: absolute;
 
-.img-div h2 {
-  text-align: center;
-  padding: 10px;
-  border-bottom: 1px solid #ABB2BF;
 }
 
 .line {

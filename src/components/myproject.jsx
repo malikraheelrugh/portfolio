@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import MinningApp from './MiningApp';
 import styles from './myprojects.module.css';
 import netflix from '../assets/netflix.png';
 import schoolpic from '../assets/schoolwebpic.png'
@@ -13,10 +12,12 @@ import javascript from '../assets/calculator.png';
 import validationForm from '../assets/validationForm.png';
 import firebaseForm from '../assets/firebaseForm.png';
 import weatherapi from '../assets/weather api.png';
-
+import inventory from '../assets/inventory-ms.png';
+import Projects from './SomeProjects.jsx';
 function MyProjects() {
 
     const myproject = [
+
         {
             name: "Weather Api", photo: weatherapi,
             about: `User enters a city name, and the app displays current temperature, weather condition
@@ -92,7 +93,7 @@ function MyProjects() {
                 <h1 className=' h1 '> <span className='purple'>#</span>Projects </h1>
                 <p className='line'></p>
             </div>            <div className={styles.projectContainer}>
-                <MinningApp></MinningApp>
+                <Projects />
                 {myproject.map(item =>
                     <div key={item.photo} className={`${styles.container} col-sm-6 col-md-4 col-lg-3 col-xxl-2`}>
                         <img src={item.photo} alt="" />

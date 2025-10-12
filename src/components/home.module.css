@@ -4,6 +4,35 @@
     font-family: "fira code", monospace;
 }
 
+.animate {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    /* Cursor */
+    display: inline-block;
+    animation: typing 4s steps(18) infinite 2s, blink 0.7s step-end infinite;
+    /* animation-delay: 2s; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* Delay the animation to start after the first one */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 20ch;
+        /* 12 characters in "Web Developer" */
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 .paragraph {
     color: white;
     width: 628px;

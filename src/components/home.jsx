@@ -2,17 +2,19 @@ import styles from './home.module.css';
 import myImage from '../assets/photo.jpg';
 import { useNavigate } from 'react-router-dom';
 
-function Homepage(params) {
+function Homepage() {
     const navigate = useNavigate()
     return <>
 
 
 
-        <div className={styles.container}>
+        <div className={styles.container}
+
+        >
 
             <div>
                 <center><div className={styles.paragraph}>
-                    <h1 style={{ fontFamily: '"fira code",monospace' }}> Raheel is  a <span className={styles.heading}>Web Developer</span> and <span className={styles.heading}>Front-End </span> Developer </h1>
+                    <h1 style={{ fontFamily: '"fira code",monospace' }}> Raheel is  a <span className={styles.heading}>Web Developer</span> and <span className={styles.animate}><span className={styles.heading}>Front-End </span> Developer </span> </h1>
                     <h5 > He crafts responsive websites where technologies <br /> meet creativity</h5>
                 </div>
                 </center>

@@ -32,7 +32,10 @@ function MinningApp(params) {
             </p>
 
             <center><a href="https://github.com/malikraheelrugh/Mining-App"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
-            </a></center>
+            </a>
+                <a href="https://mining-app-gray.vercel.app/"> <button className='mainBtn' style={{ marginBottom: "10px" }}>live Preview</button>
+                </a>
+            </center>
         </div >
     </>
 }
