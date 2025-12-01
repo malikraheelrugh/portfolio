@@ -23,6 +23,7 @@ function Projects() {
                     Store and retrieve data through a mock REST API using JSON Server,
                     Navigate through different sections using React Router,
                     Enjoy a clean and responsive interface built with Bootstrap</p>
+                <p><strong>Tech Stack</strong>: HTML, CSS,Bootstrap,JavaScript,JSON server,Api Integration </p>
 
             </div >
             <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem", width: "90%" }}>
@@ -38,6 +39,7 @@ function Projects() {
                     rankings, and news highlights. Users can explore team profiles, upcoming fixtures,
                     and performance analytics in an organized and engaging layout.
                     Designed with a clean UI for smooth navigation and a real-time feel.</p>
+                <p><strong>Tech Stack</strong>: HTML, CSS,Bootstrap,JavaScript,Api Integration </p>
                 <center><a href="https://github.com/malikraheelrugh/Cricket-Hub"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
                 </a>
                     <a href="   https://cricket-hub-pi.vercel.app/ "> <button className='mainBtn' style={{ marginBottom: "10px" }}>live preview</button>

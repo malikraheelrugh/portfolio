@@ -10,7 +10,7 @@
     align-items: center;
     margin: 8px;
     height: fit-content;
-
+    padding: 0;
 }
 
 .projectContainer {
@@ -32,7 +32,9 @@
 .container p {
 
     font-size: 20px;
-    color: #ABB2DB
+    color: #ABB2DB;
+    padding: 10px;
+
 }
 
 @media screen and (max-width:500px) {
