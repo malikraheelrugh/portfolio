@@ -3,9 +3,9 @@ import orderStore from "../assets/order.png"
 import cricket from "../assets/cricket.png"
 import MinningApp from "./MiningApp.jsx"
 function Projects() {
+    const techStack = ["React", "JavaScript", "Bootstrap", "HTML", "CSS", "Api Integration", "JSON Server"]
     return <>
-
-        <div className=" mt-4 " >
+        <div className="mt-4" >
             <MinningApp />
             <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem", width: "90%" }}>
 
@@ -23,7 +23,9 @@ function Projects() {
                     Store and retrieve data through a mock REST API using JSON Server,
                     Navigate through different sections using React Router,
                     Enjoy a clean and responsive interface built with Bootstrap</p>
-                <p><strong>Tech Stack</strong>: HTML, CSS,Bootstrap,JavaScript,JSON server,Api Integration </p>
+                <center>
+                    {techStack.map(item => <span className='badge bg-primary fs-5 m-2' key={item}>{item}</span>)}
+                </center>
 
             </div >
             <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem", width: "90%" }}>
@@ -39,7 +41,8 @@ function Projects() {
                     rankings, and news highlights. Users can explore team profiles, upcoming fixtures,
                     and performance analytics in an organized and engaging layout.
                     Designed with a clean UI for smooth navigation and a real-time feel.</p>
-                <p><strong>Tech Stack</strong>: HTML, CSS,Bootstrap,JavaScript,Api Integration </p>
+                <center>  {techStack.map(item => <span className='badge bg-primary fs-5 m-2' key={item}>{item}</span>)}
+                </center>
                 <center><a href="https://github.com/malikraheelrugh/Cricket-Hub"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
                 </a>
                     <a href="   https://cricket-hub-pi.vercel.app/ "> <button className='mainBtn' style={{ marginBottom: "10px" }}>live preview</button>

@@ -5,7 +5,7 @@ import earn3Img from '../assets/earn3.png';
 import earn4Img from '../assets/earn4.png';
 import earn5Img from '../assets/earn5.png';
 function MinningApp(params) {
-    const techStack = ["HTML", "CSS", "Bootstrap", "JavaScript"];
+    const techStack = ["HTML", "CSS", "Bootstrap", "JavaScript", "React", "Firebase", "Netlify Deployment"];
     return <>
         <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem", width: "90%" }}>
 
@@ -32,7 +32,7 @@ function MinningApp(params) {
                 Mining App   is a digital investment platform designed to simplify and simulate crypto-based earning strategies. With a clean interface and intuitive controls,  initiate mining cycles, and monitor returns—all within a secure and responsive environment.
 
             </p>
-            <center> {techStack.map(item => <span className='badge bg-primary fs-5 m-2'>{item}</span>)}</center>
+            <center> {techStack.map(item => <span className='badge bg-primary fs-5 m-2' key={item}>{item}</span>)}</center>
             <center><a href="https://github.com/malikraheelrugh/Mining-App"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
             </a>
                 <a href="https://mining-app-gray.vercel.app/"> <button className='mainBtn' style={{ marginBottom: "10px" }}>live Preview</button>
