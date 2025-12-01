@@ -18,18 +18,18 @@ function ProgressBar() {
                 </div>
 
                 <h3 className={styles.h3}>Css</h3>
-                <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                    <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "80%" }}></div>
+                <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "90%" }}></div>
                 </div>
 
                 <h3 className={styles.h3}>Bootstrap</h3>
-                <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85%" aria-valuemin="0" aria-valuemax="100">
-                    <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "80%" }}></div>
+                <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90%" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "90%" }}></div>
                 </div>
 
                 <h3 className={styles.h3}>javascript</h3>
-                <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "75%" }}></div>
+                <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" style={{ width: "80%" }}></div>
                 </div>
 
                 <h3 className={styles.h3}>React js</h3>
