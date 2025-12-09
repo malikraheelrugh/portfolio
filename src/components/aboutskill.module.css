@@ -16,12 +16,17 @@
     width: 300px;
 }
 
+.skillItem:hover {
+    background: #C470DB;
+    box-shadow: 1px 1px 8px 5px beige;
+}
 
 
 .skillItem h3 {
     color: white;
     margin-top: 10px;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 .skillItem p {

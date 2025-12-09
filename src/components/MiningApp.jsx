@@ -33,7 +33,7 @@ function MinningApp(params) {
 
             </p>
             <center> {techStack.map(item => <span className='badge bg-primary fs-5 m-2' key={item}>{item}</span>)}</center>
-            <center><a href="https://github.com/malikraheelrugh/Mining-App"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
+            <center style={{ margin: "15px" }}><a href="https://github.com/malikraheelrugh/Mining-App"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
             </a>
                 <a href="https://mining-app-gray.vercel.app/"> <button className='mainBtn' style={{ marginBottom: "10px" }}>live Preview</button>
                 </a>

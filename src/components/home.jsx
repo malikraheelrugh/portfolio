@@ -1,5 +1,5 @@
 import styles from './home.module.css';
-import myImage from '../assets/photo.jpg';
+import myImage from '../assets/raheel.png';
 import { useNavigate } from 'react-router-dom';
 
 function Homepage() {

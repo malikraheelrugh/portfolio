@@ -1,4 +1,6 @@
 import Header from './components/header'
+import ThreeBackground from './components/ThreeBackground'
+import ParallaxManager from './components/ParallaxManager'
 import './App.css'
 import AboutSkills from './components/aboutskill'
 import ProgressBar from './components/progressbar'
@@ -13,10 +15,13 @@ function App() {
   return (
     <>
 
-      <section id='home'>
+      <ThreeBackground />
+      <ParallaxManager />
+
+      <section id='home' data-parallax-speed="0.06">
         <Header ></Header>
       </section>
-      <section id='skills'>
+      <section id='skills' data-parallax-speed="0.04">
         <AboutSkills ></AboutSkills >
       </section>
       <section id='projects'>
@@ -27,13 +32,15 @@ function App() {
         </div>
         <Projects ></Projects>
       </section>
-      <section id='aboutus'>
+      <section id='aboutus' data-parallax-speed="0.03">
         <AboutUs ></AboutUs>
       </section>
-      <section id='progress'>
+      <section id='progress' data-parallax-speed="0.02">
         <ProgressBar ></ProgressBar>
       </section>
-      <Footer></Footer>
+      <div data-parallax-speed="0.01">
+        <Footer />
+      </div>
 
     </>
   )

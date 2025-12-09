@@ -67,9 +67,22 @@ body {
 .mainBtn {
   background: #282C33;
   padding: 10px;
-  border: 2px solid #C470DB;
+  /* border: 2px solid #C470DB; */
   border-radius: 2px;
-  color: white;
+  font-size: 20px;
+  background-color: #282C33;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: #C470DB;
+}
+
+.mainBtn:hover {
+  background-image: linear-gradient(90deg, #C470DB 50%, #282C33 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.45s ease;
+  -webkit-transition: background-position 0.45s ease;
+  color: #fff;
 }
 
 .contact-form {
@@ -103,11 +116,10 @@ input {
 
 .raheel {
   border-radius: 50%;
+  width: 307px;
 }
 
-.mainBtn:hover {
-  background-color: #c470db59;
-}
+
 
 .mining-heading {
   color: white;

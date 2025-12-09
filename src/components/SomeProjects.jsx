@@ -43,7 +43,7 @@ function Projects() {
                     Designed with a clean UI for smooth navigation and a real-time feel.</p>
                 <center>  {techStack.map(item => <span className='badge bg-primary fs-5 m-2' key={item}>{item}</span>)}
                 </center>
-                <center><a href="https://github.com/malikraheelrugh/Cricket-Hub"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
+                <center style={{ margin: "15px" }}><a href="https://github.com/malikraheelrugh/Cricket-Hub"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
                 </a>
                     <a href="   https://cricket-hub-pi.vercel.app/ "> <button className='mainBtn' style={{ marginBottom: "10px" }}>live preview</button>
                     </a>
