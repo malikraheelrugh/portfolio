@@ -1,4 +1,5 @@
 import Header from './components/header'
+import Navbar from './navbar'
 import ThreeBackground from './components/ThreeBackground'
 import ParallaxManager from './components/ParallaxManager'
 import './App.css'
@@ -8,7 +9,6 @@ import Footer from './components/footer'
 import Projects from './components/SomeProjects'
 import AboutUs from './components/AboutUs'
 import MyProjects from './components/myproject'
-import { Route, Routes } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 function App() {
   const navigate = useNavigate()
@@ -16,6 +16,7 @@ function App() {
     <>
 
       <ThreeBackground />
+      <Navbar />
       <ParallaxManager />
 
       <section id='home' data-parallax-speed="0.06">

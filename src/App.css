@@ -51,14 +51,21 @@ body {
 }
 
 .top {
-  margin-right: 40px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 999;
   background: #282C33;
+  border-bottom: 1px solid rgba(195, 112, 219, 0.2);
 }
+
+/* Ensure sections don't hide behind fixed navbar when anchored */
+section {
+  scroll-margin-top: 100px;
+}
+
 
 .purple {
   color: #C470DB;
@@ -211,6 +218,7 @@ input {
 
 .main {
   display: flex;
+  margin-top: 100px;
 }
 
 .progress {

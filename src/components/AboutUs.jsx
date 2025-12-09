@@ -1,4 +1,4 @@
-import myImage from "../assets/photo.jpg"
+import myImage from "../assets/raheel.png"
 function AboutUs(params) {
     return <>
         <div className="main">
