@@ -1,9 +1,11 @@
-import inventory from "../assets/inventory-ms.png"
-import orderStore from "../assets/order.png"
-import cricket from "../assets/cricket.png"
-import MinningApp from "./MiningApp.jsx"
+import inventory from "../assets/inventory-ms.png";
+import orderStore from "../assets/order.png";
+import cricket from "../assets/cricket.png";
+import MinningApp from "./MiningApp.jsx";
+import kpsForm from "../assets/KPS_Form.png";
 function Projects() {
-    const techStack = ["React", "JavaScript", "Bootstrap", "HTML", "CSS", "Api Integration", "JSON Server"]
+    const techStack = ["React", "JavaScript", "Bootstrap", "HTML", "CSS", "Api Integration", "JSON Server"];
+    const techStack2 = ["React", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Firebase Firestore", "Excel Export"];
     return <>
         <div className="mt-4" >
             <MinningApp />
@@ -46,6 +48,24 @@ function Projects() {
                 <center style={{ margin: "15px" }}><a href="https://github.com/malikraheelrugh/Cricket-Hub"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
                 </a>
                     <a href="   https://cricket-hub-pi.vercel.app/ "> <button className='mainBtn' style={{ marginBottom: "10px" }}>live preview</button>
+                    </a>
+                </center>
+            </div >
+            <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem", width: "90%" }}>
+
+                <div className="row" style={{ marginBottom: "10px" }}>
+                    <div className="col-12 p-0">
+                        <img src={kpsForm} alt="Earn1" className="img-fluid" />
+                    </div>
+
+                </div>
+                <h1 className='mining-heading p-2'>Parental Workshop Registration</h1>
+                <p style={{ color: "gray" }}>A full-stack student enrollment system built with React, Tailwind CSS, and Firebase Firestore. Features a multi-field registration form with real-time validation, live ID card preview, and a dedicated export panel that pulls records from the database and downloads them as formatted Excel files.</p>
+                <center>  {techStack2.map(item => <span className='badge bg-primary fs-5 m-2' key={item}>{item}</span>)}
+                </center>
+                <center style={{ margin: "15px" }}><a href="https://github.com/malikraheelrugh/KPS_Form-with-firebase"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
+                </a>
+                    <a href="https://kpsrachnatown.vercel.app/"> <button className='mainBtn' style={{ marginBottom: "10px" }}>live preview</button>
                     </a>
                 </center>
             </div >
