@@ -16,7 +16,7 @@ function Contact(params) {
                 <input type="number" name="number" id="number" placeholder="number" required />
                 <label htmlFor="meassage">Enter your message here</label>
                 <textarea name="message" id="message" rows="4" placeholder="Enter your message here" required ></textarea>
-                <button type="submit" className="mainBtn" style={{ width: "70%", marginLeft: "15%" }}>Contact</button>
+                <button type="submit" className="mainBtn" style={{ width: "70%", marginLeft: "15%" ,cursor: "pointer"}}>Contact</button>
             </form>
         </center>
     </>
