@@ -28,7 +28,8 @@ function Projects() {
                 <center>
                     {techStack.map(item => <span className='badge bg-primary fs-5 m-2' key={item}>{item}</span>)}
                 </center>
-
+<center><a href="https://github.com/malikraheelrugh/Inventory-MS"> <button className='mainBtn' style={{ marginBottom: "10px" }}>view on GitHub</button>
+                </a></center>
             </div >
             <div className="container " style={{ border: "1px solid #f0ffff8f", marginTop: "1rem", width: "90%" }}>
 
